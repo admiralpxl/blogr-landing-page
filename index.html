@@ -17,7 +17,7 @@
 </head>
 <body>
   <header class="header">
-    <article class="header-menu">
+    <article class="header-menu show">
       <div class="header-menu-intro">
         <span class="header-menu-intro__patterns"></span>
       </div>
@@ -63,90 +63,107 @@
 
     </div>
   
-    </article>
+    </article class="header-menutwo">
+    <nav class="nav">
+      <span class="logo"></span>
+      <span class="submenu"></span>
+    </nav>
 
   </header>
-  <main></main>
-  <footer></footer>
-  Product
+  <main class="main">
+    <section class="main-intro">
+      <article class="main-intro-container">
+        <span></span>
+        <h1>A modern <br> publishing platform</h1>
+        <p>Grow your audience and build your online brand</p>
+        <button class="main-intro-container__start">Start for Free</button>
+        <button class="main-intro-container__learn">Learn More</button>
+      </article>
+    </section>
+    
+    <section class="main-info">
+      <article class="main-info-container">
 
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
-
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-
-  Contact
-  Newsletter
-  LinkedIn
-  
-  Login
-  Sign Up
-
-  A modern publishing platform
-  Grow your audience and build your online brand
-
-  Start for Free
-  Learn More
-
-  Designed for the future
-
-  Introducing an extensible editor
-  Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+          <h2>Designed for the future</h2>
+          <img src="./images/illustration-editor-mobile.svg" alt="EditorIllustration">
+          <div class="main-info-container-paraghrap">
+          <h3>Introducing an extensible editor</h3>
+          <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
   The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
   videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
-  change the looks of a blog.
+  change the looks of a blog.</p>
+</div>
+        <div class="main-info-container-paraghrap">
+          <h3>Robust content management</h3>
+          <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+  by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+</div>
+      </article>
+    </section>
 
-  Robust content management
-  Flexible content management enables users to easily move through posts. Increase the usability of your blog 
-  by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
-
-  State of the Art Infrastructure
-  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
-  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
-
-  Free, open, simple
-  Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+    <section class="main-phone">
+      <article class="main-phone-container">
+        <img src="./images/bg-pattern-circles.svg" alt="circule" class="main-phone-container-img">
+        <img src="./images/illustration-phones.svg" alt="phone" class="main-phone-container-imgtwo">
+          <span ></span>
+        <h2>State of the Art Infrastructure</h2>
+        <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+      </article>
+    </section>
+    
+    <section class="main-more"> 
+      <article class="main-more-container">
+        <img src="./images/illustration-laptop-mobile.svg" alt="laptop" class="main-more-container-illus">
+        <div class="main-more-container-paraghrap">
+          <h3>Free, open, simple</h3>
+          <p> Blogr is a free and open source application backed by a large community of helpful developers. It supports 
   features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
-  and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+  and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+        </div>
+        <div class="main-more-container-paraghrap">
+          <h3>Powerful tooling</h3>
+          <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+  capable of producing even the most complicated sites.</p>
+        </div>
+      </article>
+    </section>
+  </main>
 
-  Powerful tooling
-  Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
-  capable of producing even the most complicated sites.
-
-  Product
-
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
-
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-  
-  Contact
-  Newsletter
-  LinkedIn
-
-  <div class="attribution">
+  <footer class="footer">
+    <span class="footer-logo"></span>
+    <div class="footer-one">
+      <h3>Product</h3>
+      <ul>
+        <li> <a href="#">Overview</a></li>
+        <li> <a href="#">Pricing</a></li>
+        <li> <a href="#">Marketplace</a></li>
+        <li> <a href="#">Features</a></li>
+        <li> <a href="#">Integrations</a></li>
+      </ul>
+    </div>
+    <div class="footer-two">
+      <h3>Company</h3>
+      <ul>
+        <li> <a href="#">About</a></li>
+        <li> <a href="#">Team</a></li>
+        <li> <a href="#">Blog</a></li>
+        <li> <a href="#">Careers</a></li>
+      </ul>
+    </div>
+    <div class="footer-three">
+      <h3>Connect</h3>
+      <ul>
+        <li> <a href="#">Contact</a></li>
+        <li> <a href="#">Newsletter</a></li>
+        <li> <a href="#">LinkedIn</a></li>
+      </ul>
+    </div> 
+    <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  </footer>
+ 
 </body>
 </html>
