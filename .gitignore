@@ -5,7 +5,6 @@
 *.sketch
 *.fig
 /design
-/images
 /scss
 
 # Avoid accidental XD upload if you convert the design file
