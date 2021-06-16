@@ -14,6 +14,8 @@ html {
   width: 100%;
   height: 100vh;
   position: fixed;
+  display: none;
+  z-index: 4;
 }
 
 .header-menu-intro {
@@ -128,7 +130,7 @@ html {
   cursor: pointer;
 }
 
-.header-menu-submenus ul {
+.header-menu-submenus .ul {
   list-style: none;
   text-align: center;
   background-color: #c8c8cb;
@@ -136,9 +138,6 @@ html {
   height: 85%;
   padding: 5px;
   border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -148,25 +147,31 @@ html {
           align-items: center;
 }
 
-.header-menu-submenus ul li {
+.header-menu-submenus .ul li {
   width: 70%;
   margin: 10px;
   font-size: 1.7rem;
   font-weight: bold;
 }
 
-.header-menu-submenus ul li a {
+.header-menu-submenus .ul li a {
   text-decoration: none;
   color: #4b5862;
 }
 
-.header-menu-submenus ul li:hover {
+.header-menu-submenus .ul li:hover {
   border-bottom: 1px solid white;
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
 }
 
-.header .show {
+.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.unshow {
   display: none;
 }
 
@@ -518,6 +523,7 @@ html {
   text-align: center;
   line-height: 2.8rem;
   width: 85%;
+  max-width: 500px;
   margin: 20px auto;
 }
 
@@ -572,5 +578,12 @@ html {
 .footer div ul li a {
   text-decoration: none;
   font-size: 1.6rem;
+  color: white;
+}
+
+.footer .attribution {
+  text-align: center;
+  margin: 5px auto;
+  font-size: 1.4rem;
   color: white;
 }

@@ -17,19 +17,19 @@
 </head>
 <body>
   <header class="header">
-    <article class="header-menu show">
+    <article id="submenu" class="header-menu">
       <div class="header-menu-intro">
         <span class="header-menu-intro__patterns"></span>
       </div>
       <nav class="header-menu-sub">
         <span class="header-menu-sub__logo"></span>
-        <span class="header-menu-sub__icon"></span>
+        <span id="exit" class="header-menu-sub__icon"></span>
       </nav>
       <div class="header-menu-container">
       <div class="header-menu-container1">
         <div class="header-menu-submenus">
-        <h2>Product <span></span></h2> 
-      <ul class="show">
+        <h2 id="product" >Product <span></span></h2> 
+      <ul id="productone" class="ul unshow">
         <li> <a href="#">Overview</a> </li>
         <li> <a href="#">Pricing</a> </li>
         <li> <a href="#">Marketplace</a> </li>
@@ -39,7 +39,7 @@
     
     
     <h2>Company <span></span></h2>
-      <ul class="show">
+      <ul id="company" class="unshow">
         <li> <a href="#">About</a> </li>
         <li> <a href="#">Team</a> </li>
         <li> <a href="#">Blog</a> </li>
@@ -47,8 +47,8 @@
       </ul>
     
     
-      <h2 >Connect <span></span></h2>
-      <ul class="show">
+      <h2>Connect <span></span></h2>
+      <ul id="connect" class="unshow">
         <li> <a href="#">Contact</a> </li>
         <li> <a href="#">Newsletter</a> </li>
         <li> <a href="#">LinkedIn</a> </li>
@@ -63,10 +63,10 @@
 
     </div>
   
-    </article class="header-menutwo">
+    </article id="navegador" class="header-menutwo">
     <nav class="nav">
       <span class="logo"></span>
-      <span class="submenu"></span>
+      <span id="inputsubmenu" class="submenu"></span>
     </nav>
 
   </header>
@@ -161,9 +161,11 @@
     </div> 
     <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/admiralpxl/blogr-landing-page">admiralpxl</a>.
   </div>
   </footer>
+
+  <script src="./index.js"></script>
  
 </body>
 </html>
